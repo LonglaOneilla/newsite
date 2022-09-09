@@ -1,0 +1,54 @@
+.career {
+    background-color: rgb(250, 35, 6);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-items: auto;
+    justify-content: space-evenly;
+    height: 250px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.vl {
+    background-color: black !important;
+    align-items: center;
+    width: 2px !important;
+    height: 75% !important;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    top: 0.5rem;
+    position: relative;
+}
+
+@media only screen and (max-width: 500px) {
+    .career {
+        background-color: rgb(250, 35, 6);
+        color: #fff;
+        display: block;
+        align-items: center;
+        justify-items: center;
+        height: 100%;
+
+        text-align: center;
+    }
+
+    .achieve {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .where {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .vl {
+        background-color: grey !important;
+        width: 100% !important;
+        height: 2px !important;
+        margin: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}

@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.btns {
+  padding: 1rem;
+  border-radius: 1px !important;
+  margin: 2rem;
+  font-size: 20px;
+  background-color: transparent !important;
+  color: #fff !important;
+  border: solid rgb(218, 216, 216) 2px !important;
+}
+
+.btns:hover {
+  background-color: rgb(250, 35, 6) !important;
+  color: white !important;
+}
+
+.red{
+  color:rgb(250, 35, 6) !important;
+}

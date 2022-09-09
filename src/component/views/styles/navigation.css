@@ -1,0 +1,111 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+Nav {
+    padding: 0 2rem;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-first{
+    color: #ffff;
+}
+
+.first-nav {
+    background-color: #777;
+    color: white !important;
+    height: 40px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.left{
+    margin-left: 40px;
+    color: white !important;
+}
+
+.right {
+    margin-left: 40px;
+}
+
+.left>div:hover,
+.right>div:hover {
+    color: black !important;
+    transition: all 0.2s;
+}
+
+.second-nav {
+    background-color: white ;
+    height: 55px;
+    text-transform: capitalize !important;
+}
+
+.logo {
+    text-transform: uppercase !important;
+    font-size: 24px;
+    cursor: pointer;
+    color: #007bff;
+    margin-left: 2rem;
+}
+
+li {
+    text-transform: capitalize;
+    list-style: none;
+}
+
+Nav.Link {
+    text-decoration: none !important;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-left: 30px;
+    font-weight: 400;
+}
+
+.vl {
+    background-color: black !important;
+    align-items: center;
+    width: 2px !important;
+    height: 100% !important;
+    margin-right: 2rem;
+    margin-left: 2rem;
+
+}
+
+@media only screen and (max-width: 1020px) {
+    .navigate{
+        display: none !important;
+    }
+    .logo{
+        justify-content: center;
+    }
+    .first-nav {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .navigate{
+        display: none !important;
+    }
+    .logo{
+        justify-content: center;
+    }
+    .right{
+        display: none !important;
+    }
+    .first-nav {
+        display: none !important;
+    }
+}
