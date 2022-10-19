@@ -5,7 +5,8 @@ const sliderdata = {
             label: 'Gaming in the Metaverse',
             title: 'Media and Entertainment',
             caption: 'How gamers in the metaverse are changing the rules of success',
-            image: '/images/sl1.jpg'
+            image: '/images/sl1.jpg',
+            width: '50%'
         },
         {
 

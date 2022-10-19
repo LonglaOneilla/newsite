@@ -33,7 +33,7 @@ const Challenges = () => {
 
                     </Col>
                     <Col xs={12} md={5} sm={5} className='help-image'>
-                        <img src="/images/sl1.jpg" alt="" />
+                        <img src="/images/fe.jpg" alt="" />
                     </Col>
                 </Row>
             </Container>

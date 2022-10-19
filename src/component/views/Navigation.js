@@ -34,15 +34,16 @@ const Navigation = () => {
             <nav className="second-nav flex">
                 <div className=" flex">
                     <div className="logo">
-                        <h3>BAIN & COMPANY</h3>
+                        <h3>ZAATI CONSULTING</h3>
                     </div>
                     <ul className="flex">
-                        <li><a href="/">industries</a></li>
-                        <li><a href="/">consulting services</a></li>
-                        <li><a href="/">digital</a></li>
-                        <li><a href="/">insights</a></li>
-                        <li><a href="/">about</a></li>
-                        <li><a href="/">careers</a></li>
+                        <li><a href="/">ZAATI News</a></li>
+                        <li><a href="/">Do business with us</a></li>
+                        <li><a href="/">Our business partners</a></li>
+                        <li><a href="/">Outreach</a></li>
+                        <li><a href="/">Career</a></li>
+                        <li><a href="/">How</a></li>
+                        <li><a href="/">Learn to our experiences</a></li>
                     </ul>
                 </div>
                 <ul className='flex'>

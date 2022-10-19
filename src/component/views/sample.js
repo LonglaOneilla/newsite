@@ -86,7 +86,7 @@ export default function Sample() {
                         <Navbar.Brand href="#" className='flex'>
                             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
                             <div className="logo">
-                                <h3>BAIN & COMPANY</h3>
+                                <h3>ZAATI CONSULTING</h3>
                             </div></Navbar.Brand>
                         <Navbar >
                             <Nav
@@ -94,12 +94,12 @@ export default function Sample() {
                                 style={{ maxHeight: '100px' }}
                                 navbarScroll
                             >
-                                <Nav.Link href="#action1">industries</Nav.Link>
-                                <Nav.Link href="#action2">consulting services</Nav.Link>
-                                <Nav.Link href="#action2">digital</Nav.Link>
-                                <Nav.Link href="#action2">insights</Nav.Link>
-                                <Nav.Link href="#action2">about</Nav.Link>
-                                <Nav.Link href="#action2">careers</Nav.Link>
+                                <Nav.Link href="#action1">ZAATI News</Nav.Link>
+                                <Nav.Link href="#action2">Do business with us</Nav.Link>
+                                <Nav.Link href="#action2">Our business partners</Nav.Link>
+                                <Nav.Link href="#action2">Outreach</Nav.Link>
+                                <Nav.Link href="#action2">Career</Nav.Link>
+                                <Nav.Link href="#action2">How</Nav.Link>
 
                             </Nav>
 
